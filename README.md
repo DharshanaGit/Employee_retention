@@ -6,7 +6,7 @@ A Machine Learning web application that predicts whether an employee is likely t
 
 ## Live Demo
 
-[Streamlit Live App](https://employeeretention-bygkloicdchc23wkgt7fco.streamlit.app/)
+[Employee Retention Detection](https://employeeretention-bygkloicdchc23wkgt7fco.streamlit.app/)
 
 ---
 
