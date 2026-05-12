@@ -1,66 +1,87 @@
-# Employee Retention Prediction using Logistic Regression
+# Employee Retention Prediction App
 
-This project predicts whether an employee will stay or leave the company using Logistic Regression in Python.
+A Machine Learning web application that predicts whether an employee is likely to stay in the company or leave based on employee work-related factors.
+
+---
+
+## Live Demo
+
+[Streamlit Live App](https://employeeretention-bygkloicdchc23wkgt7fco.streamlit.app/)
 
 ---
 
 ## Project Overview
 
-- Performs Exploratory Data Analysis (EDA)
-- Visualizes employee behavior patterns
-- Builds Logistic Regression model for classification
-- Predicts employee attrition (stay/leave)
+This project uses **Logistic Regression** to analyze employee data and predict employee retention.
+
+The model predicts:
+
+- `0` → Employee stays
+- `1` → Employee leaves
 
 ---
 
-## Problem Statement
+## Features Used
 
-Predict employee attrition based on features like:
-- Satisfaction level
-- Number of projects
-- Monthly working hours
-- Time at company
-- Salary level
-- Promotion history
+- Satisfaction Level
+- Average Monthly Hours
+- Promotion in Last 5 Years
+- Salary Level
 
 ---
 
-## Tools Used
+## Technologies Used
 
 - Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-Learn
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Streamlit
 - Jupyter Notebook
 
 ---
 
-## Machine Learning Model
+## Machine Learning Algorithm
 
 ### Logistic Regression
-- **0 → Employee stays**
-- **1 → Employee leaves**
+
+Used because the target variable is categorical:
+
+- Stay
+- Leave
+
+This is a binary classification problem.
 
 ---
 
-## Key Steps
+## Project Workflow
 
-- Data cleaning and preprocessing  
-- Data visualization  
-- Feature analysis  
-- Model training & testing  
-- Accuracy evaluation  
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Feature Selection
+5. Encoding Categorical Data
+6. Model Training
+7. Model Evaluation
+8. Streamlit Deployment
 
 ---
 
-## Files
+## Dataset
 
-- `HR_retention.ipynb` — Main notebook  
-- `HR_comma_sep.csv` — Dataset  
+Employee HR Analytics Dataset containing:
+- employee satisfaction
+- salary
+- working hours
+- promotion details
+- retention status
 
 ---
 
 ## Installation
 
+Clone the repository:
+
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
